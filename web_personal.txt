@@ -1,0 +1,189 @@
+Thank you for providing your resume. I'll use this information to create a comprehensive personal webpage for you. Here's the outline for the webpage based on the sections you specified:
+
+1. **About Me**
+2. **Professional Experience**
+3. **Education**
+4. **Skills**
+5. **Contact Information**
+
+I'll proceed to create the HTML file for your webpage now.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisabeth H. Nicklas - Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004d40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004d40;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .experience, .education, .skills {
+            margin-bottom: 20px;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elisabeth H. Nicklas</h1>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am a dedicated Human Resources professional with a passion for fostering employee engagement, driving organizational change, and optimizing HR processes. With extensive experience in HR operations, I have successfully led global HR functions, implemented comprehensive performance management programs, and developed robust compensation structures. My expertise lies in creating scalable HR solutions that support organizational growth and enhance employee satisfaction.</p>
+</section>
+
+<section>
+    <h2>Professional Experience</h2>
+    <div class="experience">
+        <div class="experience-item">
+            <h3>Human Resources Director</h3>
+            <h4>Saviynt, Inc, El Segundo, CA</h4>
+            <p><em>April 2022 – Present</em></p>
+            <ul>
+                <li>Lead and manage the global HR Operations function in 17 countries with 815+ FTE for privately held Identity and Access Governance company. Supported 130% employee population growth during first two years.</li>
+                <li>Partner with key executives across the businesses to drive employee engagement, morale, and performance in an environment experiencing both significant external and internal organizational change.</li>
+                <li>Implemented various HR operating systems including organization’s first HCM, ATS, compensation management tool, employee engagement tool, global payroll system, and employee intranet.</li>
+                <li>Developed comprehensive Performance Management Program, increasing employee participation in goal setting process from 35% to 100% over three goal setting cycles.</li>
+                <li>Established an annual employee engagement survey, increasing survey participation rates from 73% to 94% and driving employee engagement from 71% to 77% over the course of three surveys.</li>
+                <li>Led compensation team to define and level job titles, structures, and total rewards programs.</li>
+                <li>Successfully led the transition from using ADP’s Professional Employment Organization (PEO) to processing all US HR Operations inhouse.</li>
+                <li>Designed and leveraged HR analytics reporting dashboards to identify actionable trends behind people data and recommended solutions including Attrition, Upward Mobility, Absenteeism, and Manager Feedback dashboards.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Sr. Human Resources Manager</h3>
+            <h4>Saviynt, Inc, El Segundo, CA</h4>
+            <p><em>Nov 2019 – March 2022</em></p>
+        </div>
+        <div class="experience-item">
+            <h3>Human Resources Director</h3>
+            <h4>Autobrain LLC, Boca Raton, FL</h4>
+            <p><em>Sep 2016 – Nov 2019</em></p>
+            <ul>
+                <li>Reported to CEO of privately held, subscription-based, startup technology firm.</li>
+                <li>Built and led HR as organization experienced 500% employment growth in the first year.</li>
+                <li>Designed and administered compensation, stock option, and benefits programs to attract highly skilled individuals.</li>
+                <li>Devised comprehensive hiring and recruitment policies, increasing applicant flow and reducing time to hire by 400%.</li>
+                <li>Developed and enforced company personnel policies and procedures relating to all phases of human resources activity.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Human Resources Manager</h3>
+            <h4>Starwood Hotels and Resorts — Le Meridien New Orleans, New Orleans, LA</h4>
+            <p><em>Dec 2014 - Sep 2016</em></p>
+            <ul>
+                <li>Assisted the Human Resources Director in the execution of organizational structures, compensation programs, succession planning, change management, and quality initiatives.</li>
+                <li>Administered compensation, benefits and performance management systems and safety and recreation programs for 166 FTEs.</li>
+                <li>Led six area HR Coordinators in developing and communicating best practices and new procedures.</li>
+                <li>Directed job fairs to bring in local talent for long term and seasonal positions.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Finance Manager in Training</h3>
+            <h4>Starwood Hotels and Resorts — Sheraton New Orleans, New Orleans, LA</h4>
+            <p><em>Jan 2014 - Dec 2014</em></p>
+        </div>
+        <div class="experience-item">
+            <h3>Night Auditor Supervisor</h3>
+            <h4>Starwood Hotels and Resorts — Four Points by Sheraton West Lafayette, West Lafayette, IN</h4>
+            <p><em>Aug 2012 - Jan 2014</em></p>
+        </div>
+        <div class="experience-item">
+            <h3>Student Catering and Human Resources Coordinator</h3>
+            <h4>Purdue University Catering and Events, West Lafayette, IN</h4>
+            <p><em>Aug 2010 - Aug 2012</em></p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="education">
+        <div class="education-item">
+            <h3>MPS: Human Resources and Employment Relations</h3>
+            <h4>The Pennsylvania State University, University Park, PA</h4>
+            <p><em>2018</em></p>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Science: Hospitality and Tourism Management</h3>
+            <h4>Purdue University, West Lafayette, IN</h4>
+            <p><em>2013</em></p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Payroll Systems: SAP, Quickbooks, Birchstreet, Intuit Online Payroll, Gusto, Namely Payroll, ADP Celergo, ADP Workforce Now, GreytHR</li>
+        <li>Applicant Tracking Systems (ATS): JazzHR, Lever</li>
+        <li>Other Core HR Systems: Namely HRIS, CompTrak, CultureAmp, SimplyMerit, OrgChart Now</li>
+        <li>Microsoft Office, G-Suite</li>
+        <li>Oral and written communication</li>
+        <li>System Operations and Implementation</li>
+        <li>Compensation structure development</li>
+        <li>Performance management systems</li>
+        <li>Payroll and benefits administration</li>
+        <li>Training programs</li>
+        <li>Team building and guidance</li>
+        <li>Recruitment/staffing strategies</li>
+        <li>Talent Acquisition</li>
+        <li>Audit preparation and reporting</li>
+        <li>Conflict resolution</li>
+        <li>Performance appraisals</li>
+        <li>Organizational analysis and workforce improvements</li>
+        <li>Project management</li>
+        <li>Total Rewards Management and Administration</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Information</h2>
+    <ul class="contact-info">
+        <li><strong>Phone:</strong> 765 299 2344</li>
+        <li><
