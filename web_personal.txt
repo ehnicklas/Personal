@@ -1,13 +1,3 @@
-Thank you for providing your resume. I'll use this information to create a comprehensive personal webpage for you. Here's the outline for the webpage based on the sections you specified:
-
-1. **About Me**
-2. **Professional Experience**
-3. **Education**
-4. **Skills**
-5. **Contact Information**
-
-I'll proceed to create the HTML file for your webpage now.
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
